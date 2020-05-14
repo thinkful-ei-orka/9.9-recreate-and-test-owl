@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="message-container"
+>
+  <div
+    className="message"
+  >
+    <img
+      alt="Caty Flucker"
+      className="user-avatar message-avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="message-body"
+    >
+      <div
+        className="message-header"
+      >
+        <h6
+          className="message-body-header"
+        >
+          Caty Flucker
+        </h6>
+        <span
+          className="message-body-time"
+        >
+          07:50 AM
+        </span>
+      </div>
+      <div
+        className="message-body-content"
+      >
+        <p>
+          Hello world
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.stage {
+  background-color:#3C434E;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+}
+
+.contact-on-stage {
+  flex-shrink: 1;
+  display:flex;
+  flex-direction:column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-on-stage-video-container{
+  background-color:#1E2835;
+}
+
+.contact-on-stage-details {
+  background-color: rgba(30,40,53,0.65);
+  padding: 8px, 20px;
+  color:white;
+  flex-shrink:1;
+  position:relative;
+  bottom:;
+}
+
+.contact-on-stage-details-button {
+  background-color:rgba(30,40,53,0.65);
+  margin:0;
+  border: 0;
+  padding: 5px;
+}
+
+.current-user-stage-preview {
+  position:absolute;
+  bottom: 15px;
+  right: center;
+  width:135px;
+  height:100px;
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-on-stage-video-container {
+  height:90px;
+}
+
+.volume-indicator-container {
+  background-color: #1E2835;
+}
